@@ -21,6 +21,8 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
 
         // test line
+        // test line
+        // test line
 
         //Link button to layout button
         thermostatbtn=(Button) findViewById(R.id.Thermostatbutton);
