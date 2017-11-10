@@ -21,4 +21,117 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="87dp"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        android:text="add"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="@+id/space"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TableLayout
+        android:layout_width="301dp"
+        android:layout_height="299dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="167dp">
+
+        <TableRow
+            android:id="@+id/ge"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/button11"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:text="Turn Off Lights" />
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="Edit" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button12"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lock Home" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button13"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leaving Home" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button14"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Returning Home" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit" />
+        </TableRow>
+    </TableLayout>
+
 </android.support.constraint.ConstraintLayout>
