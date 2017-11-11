@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class HomeScreen extends AppCompatActivity {
     //create button here
+
     Button thermostatbtn;
     Button monitor;
     Button Lighttbn;
