@@ -70,12 +70,14 @@
                 style="@android:style/Widget.Button.Inset"
                 android:layout_width="211dp"
                 android:layout_height="wrap_content"
-                android:text="Turn Off Lights" />
+                android:text="Turn Off Lights"
+                tools:ignore="HardcodedText" />
 
             <Button
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
-                android:text="Edit" />
+                android:text="Edit"
+                tools:ignore="HardcodedText" />
 
         </TableRow>
 
@@ -88,13 +90,15 @@
                 style="@android:style/Widget.Button.Inset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lock Home" />
+                android:text="Lock Home"
+                tools:ignore="HardcodedText" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Edit" />
+                android:text="Edit"
+                tools:ignore="HardcodedText" />
         </TableRow>
 
         <TableRow
@@ -106,13 +110,15 @@
                 style="@android:style/Widget.Button.Inset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Leaving Home" />
+                android:text="Leaving Home"
+                tools:ignore="HardcodedText" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Edit" />
+                android:text="Edit"
+                tools:ignore="HardcodedText" />
         </TableRow>
 
         <TableRow
@@ -124,13 +130,15 @@
                 style="@android:style/Widget.Button.Inset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Returning Home" />
+                android:text="Returning Home"
+                tools:ignore="HardcodedText" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Edit" />
+                android:text="Edit"
+                tools:ignore="HardcodedText" />
         </TableRow>
     </TableLayout>
 
