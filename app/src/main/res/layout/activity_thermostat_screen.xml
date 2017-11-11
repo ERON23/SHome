@@ -24,17 +24,18 @@
 
     <EditText
         android:id="@+id/temperature_readout"
-        android:layout_width="112dp"
-        android:layout_height="56dp"
+        android:layout_width="181dp"
+        android:layout_height="163dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="84dp"
+        android:background="@drawable/thermo"
         android:ems="10"
         android:inputType="number"
         android:singleLine="true"
         android:text="@string/current_temp"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/heading" />
@@ -43,8 +44,8 @@
         android:id="@+id/connection_status"
         android:layout_width="184dp"
         android:layout_height="28dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="68dp"
         android:text="@string/connection_status"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,49 +61,55 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/connection_status"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintHorizontal_bias="0.355"
         app:layout_constraintStart_toEndOf="@+id/connection_status" />
 
     <TextView
         android:id="@+id/system_mode"
         android:layout_width="109dp"
         android:layout_height="28dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="28dp"
         android:text="@string/heat_cool"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/connection_status" />
+        app:layout_constraintBottom_toBottomOf="@+id/system_mode_readout"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/fan_status"
         android:layout_width="109dp"
         android:layout_height="28dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="28dp"
         android:text="@string/fan"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/system_mode" />
+        app:layout_constraintBottom_toBottomOf="@+id/fan_status_readout"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/system_mode_readout"
         android:layout_width="40dp"
         android:layout_height="28dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
         android:text="@string/cool"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/system_mode"
-        app:layout_constraintStart_toEndOf="@+id/system_mode" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toEndOf="@+id/system_mode"
+        app:layout_constraintTop_toBottomOf="@+id/connection_status_display" />
 
     <TextView
         android:id="@+id/fan_status_readout"
         android:layout_width="40dp"
         android:layout_height="28dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
         android:text="@string/on"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/fan_status"
-        app:layout_constraintStart_toEndOf="@+id/fan_status" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toEndOf="@+id/fan_status"
+        app:layout_constraintTop_toBottomOf="@+id/system_mode_readout" />
 
 </android.support.constraint.ConstraintLayout>
