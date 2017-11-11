@@ -24,10 +24,11 @@
 
     <Button
         android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="87dp"
         android:layout_height="45dp"
-        android:background="@color/colorPrimary"
         android:text="add"
+        tools:ignore="HardcodedText"
         tools:layout_editor_absoluteX="264dp"
         tools:layout_editor_absoluteY="76dp" />
 
