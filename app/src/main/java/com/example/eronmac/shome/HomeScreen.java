@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class HomeScreen extends AppCompatActivity {
     //create button here
+
     Button thermostatbtn;
     Button monitor;
     Button Lighttbn;
@@ -19,6 +20,8 @@ public class HomeScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
+
+        // test line
 
         //Link button to layout button
         thermostatbtn=(Button) findViewById(R.id.Thermostatbutton);

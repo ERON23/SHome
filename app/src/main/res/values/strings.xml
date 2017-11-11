@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SHome</string>
+    <string name="temperature">Temperature</string>
+    <string name="connection_status">Connection Status :</string>
+    <string name="good">Good</string>
+    <string name="heat_cool">Heat / Cool :</string>
+    <string name="fan">Fan</string>
+    <string name="cool">Cool</string>
+    <string name="on">On</string>
+    <string name="current_temp">72</string>
 </resources>
