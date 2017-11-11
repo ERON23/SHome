@@ -7,21 +7,102 @@
     tools:context="com.example.eronmac.shome.ThermostatScreen">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="16dp"
-        android:text="Temperature"
+        android:text="@string/temperature"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/temperature_readout"
+        android:layout_width="112dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp" />
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/current_temp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/connection_status"
+        android:layout_width="184dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/connection_status"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temperature_readout" />
+
+    <TextView
+        android:id="@+id/connection_status_display"
+        android:layout_width="87dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/good"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/connection_status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toEndOf="@+id/connection_status" />
+
+    <TextView
+        android:id="@+id/system_mode"
+        android:layout_width="109dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/heat_cool"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connection_status" />
+
+    <TextView
+        android:id="@+id/fan_status"
+        android:layout_width="109dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/fan"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/system_mode" />
+
+    <TextView
+        android:id="@+id/system_mode_readout"
+        android:layout_width="40dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/cool"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/system_mode"
+        app:layout_constraintStart_toEndOf="@+id/system_mode" />
+
+    <TextView
+        android:id="@+id/fan_status_readout"
+        android:layout_width="40dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/on"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fan_status"
+        app:layout_constraintStart_toEndOf="@+id/fan_status" />
 
 </android.support.constraint.ConstraintLayout>
