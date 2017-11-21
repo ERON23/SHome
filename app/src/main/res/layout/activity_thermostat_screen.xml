@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroud"
     tools:context="com.example.eronmac.shome.ThermostatScreen">
 
     <TextView
@@ -68,48 +69,46 @@
         android:id="@+id/system_mode"
         android:layout_width="109dp"
         android:layout_height="28dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginStart="32dp"
         android:text="@string/heat_cool"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/system_mode_readout"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/fan_status"
         android:layout_width="109dp"
         android:layout_height="28dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="32dp"
         android:text="@string/fan"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/fan_status_readout"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/system_mode_readout"
-        android:layout_width="40dp"
-        android:layout_height="28dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/cool"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
-        app:layout_constraintStart_toEndOf="@+id/system_mode"
-        app:layout_constraintTop_toBottomOf="@+id/connection_status_display" />
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="67dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="156dp"
+        android:text="ToggleButton"
+        android:textOff="Cool"
+        android:textOn="Heat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <TextView
-        android:id="@+id/fan_status_readout"
-        android:layout_width="40dp"
-        android:layout_height="28dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="4dp"
-        android:text="@string/on"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
-        app:layout_constraintStart_toEndOf="@+id/fan_status"
-        app:layout_constraintTop_toBottomOf="@+id/system_mode_readout" />
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="65dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="156dp"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
