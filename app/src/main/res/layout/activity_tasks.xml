@@ -37,43 +37,28 @@
         android:id="@+id/space"
         android:layout_width="310dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="76dp" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="223dp"
+        android:layout_width="222dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="NAme"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="@+id/space"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="@+id/space"
+        tools:layout_editor_absoluteY="76dp" />
 
     <TableLayout
-        android:id="@+id/tableLayout"
         android:layout_width="301dp"
         android:layout_height="299dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:baselineAligned="false"
         android:orientation="horizontal"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="167dp">
 
         <TableRow
             android:id="@+id/ge"
