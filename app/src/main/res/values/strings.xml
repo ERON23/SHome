@@ -8,4 +8,19 @@
     <string name="cool">Cool</string>
     <string name="on">On</string>
     <string name="current_temp">72</string>
+    <string-array name="Added_Devices">
+        <item>Light 1</item>
+        <item>Light 2</item>
+        <item>Light 3</item>
+        <item>Light 4</item>
+        <item>Back Door</item>
+        <item>Front Door</item>
+        <item>Garage Door</item>
+        <item>Thermostat</item>
+    </string-array>
+    <string-array name="Actions">
+        <item>Toggle</item>
+        <item>Dim</item>
+        <item>Change Value</item>
+    </string-array>
 </resources>

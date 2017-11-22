@@ -29,37 +29,66 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="87dp"
         android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="56dp"
         android:text="add"
-        tools:ignore="HardcodedText"
-        tools:layout_editor_absoluteX="264dp"
-        tools:layout_editor_absoluteY="76dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        tools:ignore="HardcodedText" />
 
     <Space
         android:id="@+id/space"
         android:layout_width="310dp"
         android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="76dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="222dp"
         android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="Name"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintStart_toStartOf="@+id/space"
-        tools:layout_editor_absoluteY="76dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134"
+        tools:ignore="HardcodedText" />
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="301dp"
         android:layout_height="299dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:baselineAligned="false"
         android:orientation="horizontal"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="167dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TableRow
             android:id="@+id/ge"
@@ -77,10 +106,11 @@
                 tools:ignore="HardcodedText" />
 
             <Button
+                android:id="@+id/buttonT1"
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:text="Edit"
-                tools:ignore="HardcodedText" />
+                tools:ignore="ButtonStyle,HardcodedText" />
 
         </TableRow>
 
@@ -97,11 +127,11 @@
                 tools:ignore="HardcodedText" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/buttonT2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Edit"
-                tools:ignore="HardcodedText" />
+                tools:ignore="ButtonStyle,HardcodedText" />
         </TableRow>
 
         <TableRow
@@ -117,11 +147,11 @@
                 tools:ignore="HardcodedText" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/buttonT3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Edit"
-                tools:ignore="HardcodedText" />
+                tools:ignore="ButtonStyle,HardcodedText" />
         </TableRow>
 
         <TableRow
@@ -137,11 +167,11 @@
                 tools:ignore="HardcodedText" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/buttonT4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Edit"
-                tools:ignore="HardcodedText" />
+                tools:ignore="ButtonStyle,HardcodedText" />
         </TableRow>
     </TableLayout>
 

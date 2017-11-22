@@ -20,7 +20,11 @@
         <activity android:name=".Monitor" />
         <activity android:name=".Lighting" />
         <activity android:name=".Tasks" />
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".Settings" />
+        <activity android:name=".TasksT1" />
+        <activity android:name=".TasksT2" />
+        <activity android:name=".TasksT3" />
+        <activity android:name=".TasksT4"></activity>
     </application>
 
 </manifest>
