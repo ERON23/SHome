@@ -1,6 +1,10 @@
 # SHome
 Home automation app for UI/UX Design course
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/19144547/40451044-f3e3a1aa-5ea2-11e8-8eeb-d78312e95b8d.png" width="100"/>
+</p>
+
 The goal of this android application was to design a user friendly application in which users are able to adapt and use naturaly.
 While developing the UI/UX of the application we wanted the main features to be quickly accessible to the users by homescreen. The buttons 
 were created to suite the intended function. The design was focused on using bright colors, big fonts and big buttons. 
