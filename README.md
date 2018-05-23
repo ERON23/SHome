@@ -7,7 +7,7 @@ Home automation app for UI/UX Design course
 
 The goal of this android application was to design a user friendly application in which users are able to adapt and use naturaly.
 While developing the UI/UX of the application we wanted the main features to be quickly accessible to the users by homescreen. The buttons 
-were created to suite the intended function. The design was focused on using bright colors, big fonts and big buttons. This app was mainly intended to create a desing so working features are not yet implemented. 
+were created to suite the intended function. The design was focused on using bright colors, big fonts and big buttons. This app was mainly intended to create a design so working features are not yet implemented. 
 
 ### Homescreen
 The design was inspired by the four features we inteded for users to use. Our homescreen gave the users 
@@ -53,7 +53,7 @@ Control smart lights within your home
 Monitor security events within your home
 1. Open the app
 2. Tap the ‘My Home’ icon on the home screen
-3. View security camera video feed
+3. View security camera video feed // not implemented
 * Tap the ‘Cameras’ icon
 * Observe the video feed
 4. Lock or Unlock a door
